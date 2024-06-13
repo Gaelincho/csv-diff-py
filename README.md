@@ -2,7 +2,15 @@
 
 A python script that searches for differences between two csv's.
 
-# Example
+## Usage
+
+execute `script.py` in the folder "script" this way:
+
+  python3 script.py <filename> <columns>
+
+NOTE: The filename is without the extension.
+
+## Example
 
 1st csv:
 | id | value1 | value2 | value3 |
@@ -20,7 +28,7 @@ A python script that searches for differences between two csv's.
 
 (you can see that the id's are in different positions, it doesn't matter)
 
-- executing the script with the arguments "value2,value3", will output something like this:
+- executing the script ( `python3 script.py testcsv value2,value3` ), will output something like this:
 
 ```
 --> 3 diff found
@@ -29,5 +37,5 @@ id: 2   diff-field: value3   1st csv: two   2nd-csv: abc
 id: 3   diff-field: value2   1st csv: z   2nd-csv: w 
 ```
 
-It also saves the output to a txt file in the "diff" folder.
+It also saves the output to a txt file named `testcsv` in the "diff" folder.
 
