@@ -6,7 +6,7 @@ A python script that searches for differences between two csv's.
 
 execute `script.py` in the folder "script" this way:
 
-  python3 script.py <filename> <columns>
+`python3 script.py <filename> <columns>`
 
 NOTE: The filename is without the extension.
 
